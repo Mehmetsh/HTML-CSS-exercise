@@ -1,0 +1,159 @@
+#story-post{
+    width: 54%;
+    max-height: 745.60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    overflow: scroll;
+}
+#story-post::-webkit-scrollbar{
+    display:none;
+}
+/* Side Bar */
+#sidebar{
+    width: 15.5%;
+    height: 745.60px;
+    border-right: 0.1px solid darkslategray;  
+    
+}
+
+#sidebar .sidebar{
+height: 745.60px;
+font-family: "Open Sans", sans-serif;
+}
+
+#sidebar .sidebar ul{
+    list-style-type: none;
+    line-height: 3.3rem;
+    padding-left: 1rem;
+}
+
+#sidebar .sidebar ul li{
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 3rem;
+    border-radius: 10px;
+}
+
+#sidebar .sidebar ul li:hover{
+ 
+    background: rgb(242, 242, 242);
+
+}
+
+#sidebar .sidebar ul li i{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+#sidebar .sidebar .more{
+    position: absolute;
+    bottom: 1rem;
+}
+
+#sidebar .sidebar img{
+    width: 110px;
+    margin-top: 2.1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Stories section */
+
+#stories{
+    margin-top: 2.5rem;
+    width: 80%;
+    height: 6rem;
+}
+
+#stories .stories{
+    
+    display: flex;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+#stories .stories::-webkit-scrollbar {
+    display: none;
+}
+
+#stories .stories .story{
+    margin: 0.75rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#stories .stories .story p{
+    margin-top: 0.2rem;
+    font-size: 0.80rem;
+    opacity: 0.7;
+}
+
+#stories .stories .story img{
+    width: 3.5rem;
+    border: 2px solid white;
+    outline: 2px solid rgb(181, 187, 193);
+    border-radius: 50%;
+}
+
+#stories .stories .story i{
+
+    margin-bottom: 0.1rem;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: darkgray;
+    border-radius: 50%;
+}
+
+/* post side */
+
+.postside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postside .card{
+    border: white;
+}
+.postside .card .logo{
+    margin: 0.5rem 0.3rem;
+    width: 35px;
+    border-radius: 50%;
+}
+
+/* profile */
+
+#profile{
+
+    width: 30.5%;
+}
+
+#profile .profile{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top:3rem ;
+    justify-content: space-between;
+    width: 75%;
+}
+
+#profile .profile img{
+    float: left;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+#profile .profile .profile-text{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    float: left;
+    line-height: 0.15rem;
+    font-size: 0.9rem;
+}

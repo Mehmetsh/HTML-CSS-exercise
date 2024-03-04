@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+  
+}
+   
+
+/* NAVBAR */
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3F475F;
+
+}
+.box1{
+}
+
+.box2{
+   display: flex;
+}
+
+.box3{
+}
+
+
+
+#navbar .box a{
+text-decoration: none;
+color: #fff;
+
+
+}
+
+
+.box1 a img{
+width: 160px;
+height: 34px;
+margin-bottom: 10px;
+margin-top: 12px;
+}
+
+ #navbar .box2 .arama{
+    background-color: #2F3546;
+    border-radius: 4px  ;
+    width: 290px;
+    height: 36px;
+    margin-right: 0;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+#navbar .box2 button {
+    width: 36px;
+    height: 36px;
+    background-color: #2F3546;
+    margin-left: 0;
+    border: 0;
+    position: absolute;
+    right: 2px;
+    
+}
+
+.searchbox{
+    position: relative;
+}
+
+#navbar .box2 a{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+#navbar .box3 {
+
+ width: auto;
+ height: auto;
+ padding: 1rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+
+
+ #navbar .box3 a{
+font-size: small;
+   
+}
+ #navbar .box3 .hesap{
+padding: 5px 10px;
+border-left: 1px solid rgba(128, 128, 128, 0.389);  
+  
+}    
+
+#navbar .box3 .giriş{
+padding: 5px 10px;
+}
+
+#navbar .box3 .ilan{
+background-color:rgb(51, 136, 227) ;
+padding:  10px 30px ;
+border-radius: 3px;
+}
+
+    
+/* SİDEBAR */
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+#sidebar .vasıta{
+    border: 1.5px solid rgba(128, 128, 128, 0.474);
+    height:330px ;
+    width: 260px;
+    padding: 10px 10px 10px 15px;
+    overflow-y: scroll;
+    
+}
+
+#sidebar .vasıta ul li{
+   
+    list-style: none;
+    display: flex;
+    
+}
+
+#sidebar .vasıta ul li a{
+    text-decoration: none;
+    color:#003399;
+
+    
+    
+}
+
+#sidebar .vasıta ul li a h3 {
+    font-size: 13.5px;
+    line-height: 23px;
+    font-weight: inherit;
+    margin: 0;
+    display: inherit;
+}
+
+span{
+    font-size: 9px;
+    line-height: 23px;
+    font-weight: inherit;
+    margin: 0;
+    display: inherit;
+    margin-left: 5px;
+}
+
+.vasıta::-webkit-scrollbar{
+  display: none;
+}
+
+#tvk{
+   display: block;
+   margin: 20px 0;
+   color: #039;
+   font-size: 13px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.ik{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#sidebar .kategori{
+    border: 1.5px solid rgba(128, 128, 128, 0.474);
+    height:330px ;
+    width: 260px;
+    padding: 10px 10px 10px 15px;
+    overflow-y: scroll;
+}
+
+#sidebar .kategori ul li{
+   
+    list-style: none;
+    display: flex;
+    }
+
+#sidebar .kategori ul li a{
+    text-decoration: none;
+    color:#003399;
+}
+
+#sidebar .kategori ul li a h3 {
+    font-size: 13.5px;
+    line-height: 23px;
+    font-weight: inherit;
+    margin: 0;
+    display: inherit;
+}
+
+#sidebar .kategori ul li{
+    list-style: none;
+}
+.kategori::-webkit-scrollbar{
+    display: none;
+  }
+
+  /* GÖVDE */
+
+  #total{
+    display: flex;
+}
+
+#main .reklam{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#main .reklam img{
+    margin-right: 3px;
+}
+
+#main .vitrin .başlık{
+    position: relative;
+    padding-bottom: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-bottom: rgba(128, 128, 128, 0.577) solid 1px ;
+    padding-right: 0;
+   
+    
+
+
+}
+
+#main .vitrin .başlık p{
+position: absolute;
+left: 0;
+
+font-size: 16PX;
+font-weight: bold;
+line-height: 16PX;
+
+
+}
+#main .vitrin .başlık a{
+position: absolute;
+right: 0;
+text-decoration: none;
+margin-right: 8px;
+font-weight: 200;
+font-size: 0.80rem;
+
+}
+
+/* İLANLAR */
+
+.ilanlar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 0;
+    width: 911px;
+}
+
+.ilanlar .ilan{
+    width: 109,6px;
+    height: 102px;
+    padding: 2.5px 10px;
+    margin-top: 10px;
+   
+
+
+}
+
+.ilanlar .ilan img{
+    width: 109.6px;
+    height: 82.6px;
+    
+}
+.ilanlar .ilan p{
+    margin-top: 0px;
+    font-size: 11px;
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
